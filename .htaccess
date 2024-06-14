@@ -1,0 +1,6 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Rediriger les requêtes vers le dossier src
+RewriteRule ^$ src/index.html [L]
+RewriteRule (.*) src/$1 [L]
