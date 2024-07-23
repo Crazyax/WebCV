@@ -1,0 +1,36 @@
+{
+    "job": "Développeur Web",
+    "skills_title": "Compétences",
+    "languages_title": "Langues",
+    "language1": "Français",
+    "language2": "Anglais",
+    "language3": "Espagnol",
+    "language1_level": "Langue Maternelle",
+    "language2_level": "Score TOEIC: 880",
+    "language3_level": "Niveau A2",
+
+    "work-experience_title": "Expérience professionnelle",
+    "job1": "Alternance chez Sogeti (part of Capgemini)",
+    "job1.1_date": "Septembre 2022 - Juin 2023",
+    "job1.1_description": "Développement d’un projet liant le déploiement de bots sur des forums pour récupérer des messages. Les bots déployés sont utilisables via une interface utilisateur web.",
+    "job1.2_date": "Juillet 2023 - Mars 2024",
+    "job1.2_description": "Mise en place d’une plateforme web en ligne permettant au public de labelliser des images et vidéos prises par vue aérienne au-dessus de la mer Méditerranée",
+    "job2": "Stage au PTIT",
+    "job2_date": "Juin 2022 - Août 2022",
+    "job2_description": "Concevoir une borne d'arcade",
+
+    "education_title": "Diplômes",
+    "study1": "Ecole d'ingénieur - Polytech Lille",
+    "study1_date": "Septembre 2020 - Janvier 2024",
+    "study1_description": "Cycle d'ingénieur dans la filière Systèmes embarqués",
+    "study2": "Lycée Baggio - Lille",
+    "study2_date": "Septembre 2018 - Juillet 2020",
+    "study2_description": "Etude en C.P.G.E.",
+    "study3": "Lycée des Flandres - Hazebrouck",
+    "study3_date": "Septembre 2015 - Juillet 2018",
+    "study3_description": "Baccalauréat Général série S-SI - mention Bien",
+    "study4": "Titulaire du B.A.F.A.",
+    "study5": "Titulaire du Permis B",
+
+    "last-update": "Dernière mise à jour le 26 mai 2024"
+}

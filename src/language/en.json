@@ -1,0 +1,36 @@
+{
+    "job": "Web developer",
+    "skills_title": "Skills",
+    "languages_title": "Languages",
+    "language1": "French",
+    "language2": "English",
+    "language3": "Spanish",
+    "language1_level": "Native language",
+    "language2_level": "TOEIC score: 880",
+    "language3_level": "Elementary",
+
+    "work-experience_title": "Work Experience",
+    "job1": "Apprenticeship at Sogeti (part of Capgemini)",
+    "job1.1_date": "September 2022 - June 2023",
+    "job1.1_description": "Development of a project linking the deployment of bots on forums to retrieve messages. The deployed bots can be used via a web user interface.",
+    "job1.2_date": "July 2023 - March 2024",
+    "job1.2_description": "Establishment of an online web platform allowing the public to label images and videos taken by aerial view above the Mediterranean Sea",
+    "job2": "Internship at PTIT",
+    "job2_date": "June 2022 - August 2022",
+    "job2_description": "Conceive an arcade",
+
+    "education_title": "Education",
+    "study1": "Engineer school - Polytech Lille",
+    "study1_date": "September 2020 - January 2024",
+    "study1_description": "Engineering cycle in Embedded Systems sector",
+    "study2": "Baggio High School - Lille",
+    "study2_date": "September 2018 - July 2020",
+    "study2_description": "Higher School Preparatory Class",
+    "study3": "Flandres High School - Hazebrouck",
+    "study3_date": "September 2015 - July 2018",
+    "study3_description": "Scientific High School Diploma - with high honours",
+    "study4": "Youth Work Diploma",
+    "study5": "Driver License",
+
+    "last-update": "Last update on may 26th, 2024"
+}
