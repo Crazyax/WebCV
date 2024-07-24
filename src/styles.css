@@ -93,6 +93,11 @@ h2 {
     font-size: 2vw;
   }
 }
+@media (min-width: 1921px) {
+  #name {
+    font-size: 1.4vw;
+  }
+}
 
 .section {
   margin-bottom: 8px;
@@ -111,6 +116,11 @@ h2 {
 @media (min-width: 768px) {
   #contact {
     font-size: 1.2vw;
+  }
+}
+@media (min-width: 1921px) {
+  #contact {
+    font-size: 0.9vw;
   }
 }
 

@@ -96,6 +96,9 @@ $name_size: 7vw;
     @media (min-width: 768px){
         font-size: 2vw;
     }
+    @media (min-width: 1921px){
+        font-size: 1.4vw;
+    }
 }
 
 
@@ -117,11 +120,15 @@ $contact_size: 3vw;
     @media (min-width: 768px){
         font-size: 1.2vw;
     }
+    @media (min-width: 1921px){
+        font-size: 0.9vw;
+    }
 }
 
 .info{
     padding-top: 1%;
     padding-bottom: 1%;
+
 
 }
 
