@@ -63,6 +63,19 @@ function loadLanguageFile(language) {
 
 // Fonction pour mettre à jour le contenu de la page
 function updateContent(data) {
+    /*
+    //fading out
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            const element = document.getElementById(key);
+            if (element) {
+                element.classList.remove('fade-in');
+                element.classList.add('fade-out');
+            }
+        }
+    }
+    console.log("fading out");
+
     for (const key in data) {
         if (data.hasOwnProperty(key)) {
             const element = document.getElementById(key);
@@ -71,4 +84,47 @@ function updateContent(data) {
             }
         }
     }
+
+    //fading in again
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            const element = document.getElementById(key);
+            if (element) {
+                element.classList.remove('fade-out');
+                element.classList.add('fade-in');
+            }
+        }
+    }
+    console.log("fading in");
+    */
+    const textElements = [];
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            const element = document.getElementById(key);
+            if (element) {
+                textElements.push(element);
+                element.classList.remove('fade-in');
+                element.classList.add('fade-out');
+            }
+        }
+    }
+
+    // Wait for the fade-out transition to complete
+    const handleTransitionEnd = () => {
+        textElements.forEach(element => {
+            element.textContent = data[element.id];
+            element.classList.remove('fade-out');
+            element.classList.add('fade-in');
+        });
+
+        // Remove the event listener after updating the content
+        textElements.forEach(element => {
+            element.removeEventListener('transitionend', handleTransitionEnd);
+        });
+    };
+
+    textElements.forEach(element => {
+        element.addEventListener('transitionend', handleTransitionEnd);
+    });
+
 }
