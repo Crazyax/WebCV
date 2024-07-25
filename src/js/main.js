@@ -128,3 +128,19 @@ function updateContent(data) {
     });
 
 }
+
+//make the arrow shake when hover
+document.addEventListener('DOMContentLoaded', () => {
+    const hoverTarget = document.querySelector('#language_switcher_container');
+    const shakingTarget = document.querySelector('.arrow');
+
+    if (hoverTarget) {
+        hoverTarget.addEventListener('mouseenter', () => {
+            shakingTarget.classList.add('fa-shake');
+        });
+
+        hoverTarget.addEventListener('mouseleave', () => {
+            shakingTarget.classList.remove('fa-shake');
+        });
+    }
+});
