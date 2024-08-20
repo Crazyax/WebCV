@@ -189,6 +189,125 @@ $contact_size: 3vw;
     color: #549E92;
 }
 
+#arcade_carousel_container{
+    position: absolute;
+    width: 65vw;
+    height: 65vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    
+    @media(min-width: 768px){
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+.carousel{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel_inner{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.slide{
+    position: relative;
+    flex: 0 0 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+    //centering image
+    display: grid;
+}
+
+.slide img{
+    position: absolute;
+    z-index: 1;
+    //setting size of the image
+    width: fit-content;
+    height: fit-content;
+    max-height: 100%;
+    max-width: 100%;
+    //centering image
+    justify-self: center;
+    align-self: center;
+}
+
+.blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: 0;
+}
+
+#arcade_carousel_cross{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    background-color: rgba(240, 240, 240, 0.4);
+    cursor: pointer;
+    z-index: 2;
+}
+
+#carousel_panel{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 37%;
+    height: 16%;
+    width: 100%;
+    z-index: 2;
+}
+
+#carousel_panel button{
+    background-color: rgba(240, 240, 240, 0.4);
+    border: 0;
+}
+
+.carousel_dots {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+  }  
+
+.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dot.active{
+    background-color: rgba(250, 250, 250, 0.8) !important;
+}
+
+.dot.inactive{
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+#cross{
+    width: 100%;
+    vertical-align: top;
+}
+
 footer{
     background-color: #549E92;
     margin-top: 10px;
