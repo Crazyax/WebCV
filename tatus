@@ -1,0 +1,53 @@
+[33mcommit 1d37c40968170ac09a129c8ff32c95181460c773[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Wed Aug 21 00:41:11 2024 +0200
+
+    adding a carousel with arcade photos
+
+[33mcommit 58868786df68dd74643b90350e63a4b5b7420b36[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Thu Jul 25 17:16:18 2024 +0200
+
+    make the arrow shake when hovering
+
+[33mcommit 6ecd732e1003548da17e67c30d6468072667f5cc[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Wed Jul 24 19:09:44 2024 +0200
+
+    fade transition for language swap
+
+[33mcommit 8e91aba7f5032813e2447a411616b3d519527330[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Wed Jul 24 18:17:37 2024 +0200
+
+    adapting font size for very large screens
+
+[33mcommit dbcec51941fa6c11168e470e84eced405fa42534[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Wed Jul 24 11:38:50 2024 +0200
+
+    feat: hide the selected language's flag on the dropdown
+
+[33mcommit e6703895d0ddb4cb4aeb8bc9b66558ac28568dc6[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Wed Jul 24 11:34:38 2024 +0200
+
+    implementation of change language button and logic
+
+[33mcommit acd0053243e75feff7055d62868260684b55556a[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Tue Jul 23 09:43:32 2024 +0200
+
+    modules updates + buttons to change languages + implementation of language changes
+
+[33mcommit 0011b4a100c2294dd05ac1e831c15a921296151d[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Mon Jun 17 12:23:09 2024 +0200
+
+    changing some config
+
+[33mcommit 72a286ed3a41430ba154856a3bcb3f9f76fa722a[m
+Author: Maxime Balbastre <maxime.balbastre@gmail.com>
+Date:   Fri Jun 14 16:40:04 2024 +0200
+
+    First commit

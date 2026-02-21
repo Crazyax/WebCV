@@ -1,0 +1,14 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Rediriger la requête racine vers src/index.html
+RewriteRule ^$ src/index.html [L]
+
+# Si le fichier demandé n'existe pas dans src/, rediriger vers le fichier réel
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ src/$1 [L]
+
+<DirectoryMatch "*/\.git/">
+    Require all denied
+</DirectoryMatch>
